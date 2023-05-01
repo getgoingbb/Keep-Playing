@@ -42,4 +42,28 @@ export default defineConfig({
       },
     ],
   },
+
+
+// tina/config.ts
+//...
++ const branch =
++  process.env.NEXT_PUBLIC_TINA_BRANCH ||
++  process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
++  process.env.HEAD ||
++  ''
+export default defineConfig({
+  //...
+  token: '<Your Read Only Token>' // generated on app.tina.io,
+  clientId: '<Your Client ID>', // generated on app.tina.io
+  branch,
+  schema: {
+    collections: [
+    //...
+    // See https://tina.io/docs/schema/ for more info about "collections"
+  ]}
+})
+
+
+
+
 });
