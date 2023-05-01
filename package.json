@@ -1,0 +1,16 @@
+{
+  "name": "keep-playing-1",
+  "version": "1.0.0",
+  "description": "<h1 align=center>Meghna Hugo Theme</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.9",
+    "tinacms": "^1.5.2"
+  }
+}
