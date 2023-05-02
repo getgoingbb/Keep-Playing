@@ -53,8 +53,8 @@ export default defineConfig({
 +  ''
 export default defineConfig({
   //...
-  token: '<Your Read Only Token>' // generated on app.tina.io,
-  clientId: '<Your Client ID>', // generated on app.tina.io
+  token: '<a8793f9662f853f2d75d360d495f9c64d52f7108>' // generated on app.tina.io,
+  clientId: '<0888fff0-9466-4b0f-befc-7c7d42ceee11>', // generated on app.tina.io
   branch,
   schema: {
     collections: [
