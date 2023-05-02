@@ -57,8 +57,8 @@ url = "#portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "team"
-url = "#team"
+name = "Stephen's Unique Presentation"
+url = "#Unique-presentation-health-welness-keynote-speaker"
 weight = 4
 
 [[Languages.en.menu.main]]
@@ -94,10 +94,10 @@ name = "Dropdown 2"
 url = "#"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+######[[Languages.en.menu.main]]
+#######name = "themefisher"
+######url = "https://themefisher.com/"
+#########weight = 8
 
 
 ################### French Navigation ########################
